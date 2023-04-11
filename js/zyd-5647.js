@@ -11,4 +11,8 @@ let nr3 =  [nr1,nr2]
 
 console.log(`arrays ai nr1 ${nr1}`)
 console.log(`arrays ai nr2 ${nr2}`)
+nr3.forEach((itenDoArray => {
+    console.log(`Array-3 sendo listando ${itenDoArray}`);
+}))
 console.log(`arrays ai nr3 ${nr3}`)
+
