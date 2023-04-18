@@ -14,5 +14,19 @@ console.log(`arrays ai nr2 ${nr2}`)
 nr3.forEach((itenDoArray => {
     console.log(`Array-3 sendo listando ${itenDoArray}`);
 }))
-console.log(`arrays ai nr3 ${nr3}`)
+
+
+nr3.map((numero,key)=>{
+    console.log(`Itens do array - ${numero}`);
+    numero.forEach((digitos)=>{
+        console.log(digitos)
+    })
+})
+
+const liElementHtml = document.getElementsByClassName("li")
+const liElementArray = [...liElementHtml]
+liElementArray.map((item,key)=>{
+    console.log(`${key+1} -I ${item.textContent}`)
+})
+
 
