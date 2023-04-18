@@ -34,3 +34,15 @@ liElementArray.map((item,key)=>{
 })
 */
 
+function soma(p1, p2, p3){
+    nr1 = p1;
+    nr2 = p3;
+    //console.log(`Resultado: ${nr1 + nr2}`)
+    //console.log(`Esse foi o parâmetro que foi passado para a função: ${parametro}`)
+
+    return (parseInt(nr1) + parseInt(nr2) + parseInt(p3))
+}
+
+const mudaCor = () => {
+    
+}
