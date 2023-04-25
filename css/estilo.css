@@ -5,7 +5,7 @@
     width: 100vw;
     height: 20vh;
     background-color: blue;
-    color: #FFF;
+    color: #fff;
 }
 
 .container{
@@ -14,15 +14,16 @@
     width: 100vw;
     height: 60vh;
     background-color: blueviolet;
-    color: #FFF;
 }
 
-.container .l-e{
+.container .central{
     flex-grow: 5;
+}
+.container .l-e{
+    flex-grow: 1;
     background-color: brown;
 }
-
 .container .l-d{
-    flex-grow: 5;
-    background-color: aqua;
+    flex-grow: 1;
+    background-color: coral;
 }
