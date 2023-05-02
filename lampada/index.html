@@ -8,12 +8,32 @@
 </head>
 <body>
     <center>
-    <img id="lampada" src="./img/pic_bulboff.gif">
+    <img id="lampada" src="">
     <br>
     <br>
     <br>
-    <button>Liga</button>
-    <button>Desliga</button>
+    <button onclick="liga()"></button>
 </center>
+    <script src="./js/index.js"></script>
+
+    <div class="info">
+        <form action="index.html" method="get" onsubmit="return false">
+            <fieldset>
+                <legend>Login:</legend>
+                <div>
+                    <label for="">Usuários</label>
+                    <input type="text" name="nmUser" id="idUser" placeholder="Usuário">
+                </div>
+                <div>
+                    <label for="">Senha</label>
+                    <input type="password" name="nmPass" id="idPass" placeholder="Senha">
+                </div>
+                <div>
+                    <button type="button">LOGIN</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
 </body>
 </html>

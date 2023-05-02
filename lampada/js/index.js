@@ -1,6 +1,12 @@
-let lampadaOff = document.getElementById("lampada").src="../img/pic_bulboff.gif"
-let lampadaOn = document.getElementById("lampada").src="../img/pic_bulbon.gif"
+function liga(){
+    const imgLampada = document.querySelector("img");
+    const botao = document.querySelector("button");
 
-function liga(lampadaOff){
-    
+    if (botao.textContent == "LIGAR"){
+        imgLampada.src = "../img/pic_bulbon.gif"
+        botao.textContent = "Desligar"
+    }else{
+        imgLampada.src = "../img/pic_bulboff.gif"
+        botao.textContent = "Ligar"
+    }
 }
